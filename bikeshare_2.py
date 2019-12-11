@@ -178,7 +178,6 @@ def display_data(df):
         ans = input('Would you like to see 5 records of raw data? ')
         if ans == 'yes':
             print('\nTop 5 records: \n', df.head(5))
-            print('\nLast 5 records: \n', df.tail(5))
             break
         else:
             break
