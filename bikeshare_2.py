@@ -151,7 +151,7 @@ def trip_duration_stats(df):
 def user_stats(df):
     """Displays statistics on bikeshare users."""
 
-    print('\nCalculating User Stats...\n')
+    print('\nCalculating User Stats based on user input...\n')
     start_time = time.time()
 
     #Display counts of user types
@@ -173,6 +173,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+<<<<<<< HEAD
 def display_data(df):
     while True:
         ans = input('Would you like to see 5 records of raw data? ')
@@ -183,6 +184,18 @@ def display_data(df):
         else:
             break
 
+||||||| merged common ancestors
+=======
+def display_data(df):
+    while True:
+        ans = input('Would you like to see 5 records of raw data? ')
+        if ans == 'yes':
+            print('\nTop 5 records: \n', df.head(5))
+            break
+        else:
+            break
+
+>>>>>>> refactoring
 
 def main():
     while True:
