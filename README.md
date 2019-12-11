@@ -1,15 +1,27 @@
 ### Date created
-Include the date you created this project and README file.
+Created December 11, 2019
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data for Chicago, New York and Washington
 
 ### Description
-Describe what your project is about and what it does
+The bikeshare is an interactive program with bike sharing data compiled from 3 cities - Chicago, New York and Washington.
+Users are asked which city and time period results they want to see. Statistical data is returned and displayed based on the users response.
+
+This includes:
+* the most frequent travel times
+* the most common month and day of week
+* the most popular stations
+* trip durations
+* riders stats (number of riders, their gender and birth year)
+
+Users are then prompted to see more records or restart the program.
 
 ### Files used
-Include the files used
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://atom.io/packages/markdown-preview
+https://www.takenotesguide.com/how-to-use-atom-to-take-notes/
